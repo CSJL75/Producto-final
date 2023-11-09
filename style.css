@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: turquoise;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para secciones */
+section h2 {
+    color: orange;
+}
+
+/* Estilos para hipervínculos */
+section a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text-con-saltos{
+    white-space: pre-line;
+}
+
+/* Estilos para el tema oscuro */
+.dark-theme {
+    background-color: black;
+    color: black;
+}
+
+.dark-theme header {
+    background-color: darkorchid;
+}
+
+.dark-theme nav {
+    background-color: orange;
+}
+
+.dark-theme nav a {
+    color: black;
+}
+
+.dark-theme section {
+    background-color: silver;
+    border: 1px solid #444;
+}
+
+.dark-theme section h2 {
+    color: magenta;
+}
+
+.dark-theme section a {
+    color: #50fa7b;
+}
+
+/* Estilos para la sección de comentarios */
+#comentarios {
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+#comentarios h2 {
+    font-size: 1.5rem;
+}
+
+#comentarios-lista {
+    margin-top: 20px;
+}
+
+#comentarios-lista .comentario {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para el formulario de comentarios */
+#formulario-comentario {
+    margin-top: 20px;
+}
+
+#formulario-comentario input,
+#formulario-comentario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#formulario-comentario button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
